@@ -6,53 +6,61 @@
     
     <title>Arrighetto's Pizzeria</title>
     
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <style>
+    .below_menu_container {
+      padding-top: 100px;
+    }
+    </style>
+
+
 </head>
 
 <body>
-  <nav>
-    <ul>
-      <li>
-        <a href="index.html">Home</a>
-      </li>
-      
-      <li>
-        <a href="about.html">About</a>
-      </li>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
 
-      <li>
-        <a href="pizza.html">Pizza</a>
-      </li>
+        <a class="navbar-brand" href="#">Arrighetto's Pizzeria</a>
+      </div>
 
-      <li>
-        <a href="Location.html">Location</a>
-      </li>
-      
-      <li>
-        <a href="Pasta_and_Subs.html">Pasta and Subs</a>
-      </li>
-      
-      <li>
-        <a href="Menu_and_Pricing.html">Menu and Pricing</a>
-      </li>
-      
-      <li>
-        <a href="signup.html">Sign Up</a>
-      </li>
-      
-       <li>
-        <a href="login.html">Login</a>
-        </li>
-    </ul>
+      <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="Location.html">Location</a></li>
+          <li><a href="pizza.html">Pizza</a></li>
+          <li><a href="Pasta_and_Subs.html">Pasta and Subs</a></li>
+          <li><a href="Menu_and_Pricing.html">Menu and Pricing</a></li>
+          <li><a href="signup.html">Sign Up</a></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+      </div>
+    </div>
   </nav>
   
   <section>
-    <h1>Arrighetto's Pizzeria</h1>
-    
-    <img src="img/content/pizza.png" alt="logo" style="width:400px;height:400px;">
-    
-    <p> This place has amazing pizza. You will love this place.</p>
-</section>
+    <div class="container">
+        <div class="below_menu_container">
+          <img src="img/content/pizza.png" alt="logo" style="width:400px;height:400px;">
+          <p> This place has amazing pizza. You will love this place.</p>
+        </div>
+    </div>
+  </section>
+          
   
   <footer>© Copyright Arighetto's Pizza 2016, All Rights Reserved</footer>
-  </body>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
