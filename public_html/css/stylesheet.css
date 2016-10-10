@@ -1,0 +1,13 @@
+footer {
+    width: 100%;
+    bottom: 0;
+    position: relative;
+    text-align: center;
+    margin: 0px;
+}
+
+
+.image {
+    display: block;
+    margin: auto;
+}
