@@ -2,7 +2,15 @@ body {
   background-color: #ECF0F1;
 }
 
+h1 {
+    text-align: center;
+}
+
 h2 {
+    text-align: center;
+}
+
+h3 {
     text-align: center;
 }
 
@@ -15,7 +23,12 @@ footer {
 }
 
 
-.image {
+.centered-image {
     display: block;
     margin: auto;
+}
+
+.caption {
+    text-align: center;
+    font-style: italic;
 }
