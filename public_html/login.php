@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!--Anthony Russo-->
+
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -20,34 +20,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-
-        <a class="navbar-brand" href="#">Arrighetto's Pizzeria</a>
-      </div>
-
-      <div id="navbar" class="collapse navbar-collapse">
-        <ul class="nav navbar-nav">
-             <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="location.html">Location</a></li>
-          <li><a href="hours.html">Hours</a></li>
-          <li><a href="pizza.html">Pizza</a></li>
-          <li><a href="pasta_and_subs.html">Pasta and Subs</a></li>
-          <li><a href="menu_and_pricing.html">Menu and Pricing</a></li>
-          <li><a href="signup.html">Sign Up</a></li>
-          <li><a href="login.html">Login</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+  <?php include '../resources/navigation.php'; ?>
 
   <section>
     <div class="container">
@@ -77,7 +50,7 @@
           </div>
           <div class="form-group">
             <div class="col-sm-offset-2 col-sm-10">
-            <a class="btn btn-danger" href="menu_and_pricing.html" role="button">Login</a>
+            <a class="btn btn-danger" href="menu_and_pricing.php" role="button">Login</a>
               
             </div>
           </div>
@@ -92,6 +65,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   
-<footer>© Copyright Arrighetto's Pizza 2016, All Rights Reserved</footer>
+<?php include '../resources/footer.php'; ?>
 </body>
 </html>

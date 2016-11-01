@@ -1,0 +1,1 @@
+<footer>&copy; Copyright Arrighetto's Pizza 2016, All Rights Reserved</footer>

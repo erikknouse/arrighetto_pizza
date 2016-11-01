@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!--Anthony Russo-->
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -22,34 +21,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-
-        <a class="navbar-brand" href="#">Arrighetto's Pizzeria</a>
-      </div>
-
-      <div id="navbar" class="collapse navbar-collapse">
-        <ul class="nav navbar-nav">
-            <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="location.html">Location</a></li>
-          <li><a href="hours.html">Hours</a></li>
-          <li><a href="pizza.html">Pizza</a></li>
-          <li><a href="pasta_and_subs.html">Pasta and Subs</a></li>
-          <li><a href="menu_and_pricing.html">Menu and Pricing</a></li>
-          <li><a href="signup.html">Sign Up</a></li>
-          <li><a href="login.html">Login</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+  <?php include '../resources/navigation.php'; ?>
 
    <section>
     <div class="container">
@@ -58,12 +30,12 @@
         <div>
         <p> We make traditional New York Style pizza and calzones. Each one is made with hand tossed crust and three different all natural cheeses. Our sauce is made from Papa Arighetto's secret recipe crafted by him and his sons. Make sure to try our new Gluten Free and Organic varieties! Made from 100% organic ingredients from American farmers. </p>
         <div class="mycolor col-xs-12 col-lg-6">
-                    <a href="menu_and_pricing.html">
+                    <a href="menu_and_pricing.php">
         <img src="img/content/pizza2.png" alt="pizza" class="centered-image" style="height:350px; width: 350px;"> <div class="caption">A classic pepperoni pizza.</div>
         </a>
         </div>
         <div class="mycolor col-xs-12 col-lg-6">            
-                <a href="menu_and_pricing.html"> </a>
+                <a href="menu_and_pricing.php"> </a>
         <img src="img/content/calzone.png" alt="calzone" class="centered-image" style="height:350px; width: 350px;"> <div class="caption">A classic pepperoni calzone.</div>
         </div>
                 
@@ -75,7 +47,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     
-<footer>© Copyright Arrighetto's Pizza 2016, All Rights Reserved</footer>
+<?php include '../resources/footer.php'; ?>
 </body>
 </html>
   
